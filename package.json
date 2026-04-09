@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "@types/prompt-sync": "^4.2.3",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
