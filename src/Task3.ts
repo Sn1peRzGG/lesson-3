@@ -11,9 +11,7 @@ function validateInput(
 		case 'name':
 			return input.length >= 2 && input.length <= 50
 		case 'phone':
-			return /^\+?\d{1,4}[-.\s]?\(?\d{1,5}\)?[-.\s]?\d{1,5}[-.\s]?\d{1,9}$/.test(
-				input,
-			)
+			return /^\+\d{10,13}$/.test(input)
 		case 'postcode':
 			return /^\d{5}$/.test(input)
 		case 'payMethod':
